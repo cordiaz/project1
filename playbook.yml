@@ -19,7 +19,7 @@
       docker_container:
         name: apache2
         state: started
-        image: cordiaz/apache-php-nano:1
+        image: cordiaz/http:5
         publish_ports:
           - 8081:80
         recreate: yes
